@@ -1,0 +1,105 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1伺服器功能'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+showitem:
+  COMMAND: 'tell: &a插件網址: https://www.spigotmc.org/resources/showitem.10133/'
+  NAME: '&d展示物品'
+  ID: player_head
+  SKULL-OWNER: '3i5g00d'
+  LORE:
+    - '/si -all 向當前伺服器展示手上的物品'
+    - '/si -r 範圍 向範圍內展示手上的物品'
+    - '使用插件: ShowItem'
+    - '點擊取得插件網址'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+
+shopkeeper:
+  COMMAND: 'tell: &a插件網址: https://dev.bukkit.org/projects/shopkeepers'
+  NAME: '&d村民商人'
+  ID: player_head
+  SKULL-OWNER: 'Goldensteev'
+  LORE:
+    - '將鑽石命名為shop可召喚'
+    - '詳細教學在官網上'
+    - '使用插件: Shopkeepers'
+    - '點擊取得插件網址'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+
+chairs:
+  COMMAND: 'tell: &a插件網址: https://www.spigotmc.org/resources/rifles-chairs-1-13-x-1-14-x.58809/'
+  NAME: '&d椅子'
+  ID: oak_stairs
+  LORE:
+    - '對樓梯,半磚,地毯按下右鍵可以坐下'
+    - '使用插件: Rifles Chairs'
+    - '點擊取得插件網址'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+
+minecart:
+  COMMAND: 'tell: &a插件網址: https://www.spigotmc.org/resources/easycarts.3941/'
+  NAME: '&d礦車加速'
+  ID: minecart
+  LORE:
+    - '人坐上的礦車速度將會加速約200%'
+    - '&c警告: 人坐過的礦車速度過快會出軌'
+    - '使用插件: EasyCarts'
+    - '點擊取得插件網址'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+
+orereplace:
+  COMMAND: 'tell: &a插件網址: https://www.spigotmc.org/resources/orereplacer-100-no-more-x-ray-miners-seriously.22158/'
+  NAME: '&d礦物替換'
+  ID: diamond_ore
+  LORE:
+    - '礦物為挖開方塊後自動計算生成'
+    - '使用插件: Orereplacer'
+    - '點擊取得插件網址'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+
+anvil:
+  COMMAND: 'tell: &a插件網址: https://www.spigotmc.org/resources/coloranvil.65062'
+  NAME: '&d彩色物品'
+  ID: diamond_ore
+  LORE:
+    - '物品可使用顏色代碼顯示彩色名稱'
+    - '使用插件: ColorAnvil'
+    - '點擊取得插件網址'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+
+close:
+  COMMAND: 'open: server_info.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  KEEP-OPEN: true
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1

@@ -1,0 +1,84 @@
+menu-settings:
+
+  name: '&1伺服器內容'
+
+  rows: 3
+
+
+
+
+seed:
+  COMMAND: 'tell: &aserver0: -9223191710740950770;tell: &aserver1: 4980665764931161818;tell: &aserver2: -6241630315598145857'
+  NAME: '&a種子碼查詢'
+  LORE:
+    - '種子碼'
+    - 'server0: -9223191710740950770'
+    - 'server1: 4980665764931161818'
+    - 'server2: -6241630315598145857'
+  KEEP-OPEN: ture
+  ID: player_head
+  SKULL-OWNER: '_reverT'
+  POSITION-X: 2
+  POSITION-Y: 2
+
+website:
+  COMMAND: 'tell: &a伺服器官網: https://sites.google.com/view/mc-goodtime'
+  NAME: '&b伺服器官網'
+  LORE:
+    - '點我取得網址'
+  KEEP-OPEN: False
+  ID: player_head
+  SKULL-OWNER: 'G00gle_'
+  POSITION-X: 3
+  POSITION-Y: 2
+
+website_land:
+  COMMAND: 'tell: &a領地教學: https://sites.google.com/view/mc-goodtime/tutorial/land'
+  NAME: '&2領地設置教學'
+  LORE:
+    - '點我取得網址'
+  KEEP-OPEN: False
+  ID: player_head
+  SKULL-OWNER: 'Torias_Dax'
+  POSITION-X: 4
+  POSITION-Y: 2
+
+website_signshop:
+  COMMAND: 'tell: &a告示牌商店教學: https://sites.google.com/view/mc-goodtime/tutorial/signshop'
+  NAME: '&6告示牌商店設置教學'
+  LORE:
+    - '點我取得網址'
+  KEEP-OPEN: False
+  ID: oak_sign
+  POSITION-X: 5
+  POSITION-Y: 2
+
+website_map:
+  COMMAND: 'tell: &aserver0伺服器小地圖: http://mc-goodtime.ddns.net:8120;tell: &aserver1伺服器小地圖: http://mc-goodtime.ddns.net:8121;tell: &aserver5伺服器小地圖: http://mc-goodtime.ddns.net:8125'
+  NAME: '&e伺服器小地圖'
+  LORE:
+    - '點我取得網址'
+  KEEP-OPEN: False
+  ID: map
+  POSITION-X: 6
+  POSITION-Y: 2
+
+server_function:
+  COMMAND: 'open: server_function.yml'
+  NAME: '&e伺服器功能'
+  ID: player_head
+  SKULL-OWNER: 'RagMan17'
+  LORE:
+    - '開啟伺服器功能介面'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+
+close:
+  COMMAND: 'open: menu.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1
