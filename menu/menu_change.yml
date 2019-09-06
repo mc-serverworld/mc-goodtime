@@ -1,0 +1,70 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1兌換選單'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+wood:
+  COMMAND: 'open: change_wood.yml'
+  NAME: '&6木材兌換'
+  LORE:
+    - 'P:這功能超讚的'
+    - 'V:總覺得在哪裡看過...'
+    - 'P:......'
+  ID: oak_log
+  POSITION-X: 2
+  POSITION-Y: 2
+
+stone:
+  COMMAND: 'open: change_stone.yml'
+  NAME: '&6石材兌換'
+  LORE:
+    - 'P:科技始終來自於惰性'
+    - 'V:這個東西有科技嗎(敲'
+    - 'P:我還是要打好幾行字阿 這就是科技!'
+  ID: stone
+  POSITION-X: 3
+  POSITION-Y: 2
+
+stuff:
+  COMMAND: 'open: change_stuff.yml'
+  NAME: '&6雜項兌換'
+  LORE:
+    - 'V:你知道這東西從5.2一直跳票到6.0嗎?'
+    - 'P:痾，這種事情就不用講了(逃'
+    - 'V:......'
+  ID: barrel
+  POSITION-X: 4
+  POSITION-Y: 2
+
+spawn:
+  COMMAND: 'open: change_spawn.yml'
+  NAME: '&6生物召喚'
+  LORE:
+    - 'V:可以召喚貓嗎?'
+  ID: trader_llama_spawn_egg
+  POSITION-X: 5
+  POSITION-Y: 2
+
+close:
+  COMMAND: 'open: menu.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1

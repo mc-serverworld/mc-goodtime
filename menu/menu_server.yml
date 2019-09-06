@@ -1,0 +1,93 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1伺服器選擇介面'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+server0:
+  COMMAND: 'server: server0'
+  NAME: '&6前往server0'
+  LORE:
+    - '&2線上人數: &6%bungee_server0%'
+    - 'P:這是一個充滿BUG和Lag的伺服器'
+  ID: pufferfish_bucket
+  POSITION-X: 2
+  POSITION-Y: 2
+
+server1:
+  COMMAND: 'server: server1'
+  NAME: '&6前往server1'
+  LORE:
+    - '&2線上人數: &6%bungee_server1%'
+    - 'P:全新的世界 但是你還是會做一樣的事'
+  ID: kelp
+  POSITION-X: 3
+  POSITION-Y: 2
+
+server2:
+  COMMAND: 'server: server2'
+  NAME: '&6前往server2'
+  LORE:
+    - '&2線上人數: &6%bungee_server2%'
+    - 'P:據說是專門開給玩家蓋殘害伺服器的建築'
+  ID: conduit
+  POSITION-X: 4
+  POSITION-Y: 2
+
+server3:
+  COMMAND: 'server: server3'
+  NAME: '&6前往server3'
+  LORE:
+    - 'P:永生之年系列'
+  ID: skeleton_skull
+  POSITION-X: 5
+  POSITION-Y: 2
+
+createrserver:
+  COMMAND: 'server: createrserver'
+  NAME: '&6前往彼岸...'
+  LORE:
+    - '&2線上人數: &6%bungee_createrserver%'
+    - '前往彼岸...'
+  ID: player_head
+  SKULL-OWNER: 'julagamer2007'
+  PERMISSION: 'free'
+  PERMISSION-MESSAGE: '&c無法前往...'
+  POSITION-X: 6
+  POSITION-Y: 2
+
+testserver:
+  COMMAND: 'server: testserver'
+  NAME: '&6前往測試區'
+  LORE:
+    - '&2線上人數: &6%bungee_testserver%'
+    - '&c此為管理員測試新功能使用'
+  ID: player_head
+  SKULL-OWNER: 'paul0665'
+  PERMISSION: 'coreprotect.*'
+  PERMISSION-MESSAGE: '&c無法前往...'
+  POSITION-X: 7
+  POSITION-Y: 2
+
+close:
+  COMMAND: 'open: menu.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1
