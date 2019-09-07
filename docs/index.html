@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJlcb4e64c2a5cef7df613950fdf8707959"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl20cc07cafd8ed2747ce7411e8f7102f5"/>
   <meta charset="utf-8">
   <title>mc-goodtime</title>
   <link rel="icon" href="logo.png" type="image/x-icon">
@@ -116,13 +116,6 @@ body {
     left: -24px;
     top: 528px;
 }
-.gwd-button-1rbv {
-    position: absolute;
-    left: 51.39%;
-    top: 36.24%;
-    width: 5.33%;
-    height: 5%;
-}
 .gwd-page-1mgr {
     width: 100%;
     height: 100%;
@@ -150,21 +143,15 @@ body {
       document.getElementById('text_ip').select();
       document.execCommand('Copy');
     };
-    gwd.auto_Button_2Click = function(event) {
-      // GWD Predefined Function
-      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'none', 1000, 'linear', 'top');
-    };
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Google Web Designer 中處理事件的支援程式碼
     // 這個指令碼區塊是自動產生的，請勿編輯！
     gwd.actions.events.registerEventHandlers = function(event) {
       gwd.actions.events.addHandler('button_1', 'click', gwd.copyip, false);
-      gwd.actions.events.addHandler('button_2', 'click', gwd.auto_Button_2Click, false);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
       gwd.actions.events.removeHandler('button_1', 'click', gwd.copyip, false);
-      gwd.actions.events.removeHandler('button_2', 'click', gwd.auto_Button_2Click, false);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
@@ -179,7 +166,6 @@ body {
         <gwd-image id="spawn1" source="mod5.jpg" scaling="cover" class="gwd-image-1dxt"></gwd-image>
         <input type="text" class="gwd-input-14qo" value="mc-goodtime.ddns.net" id="text_ip">
         <button id="button_1" class="gwd-button-1n9j">mc-goodtime.ddns.net</button>
-        <button id="button_2" class="gwd-button-1rbv">按鈕</button>
       </div>
     </gwd-page>
     <gwd-page id="page1_2" class="gwd-page-wrapper gwd-lightbox gwd-page-1mgr" data-gwd-width="100%" data-gwd-height="100%">
