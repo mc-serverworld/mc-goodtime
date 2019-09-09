@@ -23,6 +23,7 @@ website:
   NAME: '&b伺服器官網'
   LORE:
     - '點我取得網址'
+  KEEP-OPEN: False
   ID: player_head
   SKULL-OWNER: 'G00gle_'
   POSITION-X: 3
@@ -33,6 +34,7 @@ website_land:
   NAME: '&2領地設置教學'
   LORE:
     - '點我取得網址'
+  KEEP-OPEN: False
   ID: player_head
   SKULL-OWNER: 'Torias_Dax'
   POSITION-X: 4
