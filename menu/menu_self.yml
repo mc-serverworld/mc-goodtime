@@ -1,22 +1,6 @@
-######################
-#+                  +#
-#   MENU SETTINGS    #
-#+                  +#
-######################
-
 menu-settings:
-
-  # name - appears as the title - REQUIRED
   name: '&1個人指令介面'
-
-  # rows - the number of rows of the chest - REQUIRED
   rows: 4
-
-######################
-#+                  +#
-#       ITEMS        #
-#+                  +#
-######################
 
 spawn:
   COMMAND: 'spawn'
