@@ -1,24 +1,8 @@
-######################
-#+                  +#
-#   MENU SETTINGS    #
-#+                  +#
-######################
-
 menu-settings:
-
-  # name - appears as the title - REQUIRED
   name: '&1生物召喚'
-
-  # rows - the number of rows of the chest - REQUIRED
+  
   rows: 5
-
-
-######################
-#+                  +#
-#       ITEMS        #
-#+                  +#
-######################
-
+  
 trader_llama:
   COMMAND: 'op: summon trader_llama'
   NAME: '&6召喚 商駝'

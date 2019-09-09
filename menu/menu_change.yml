@@ -1,23 +1,9 @@
-######################
-#+                  +#
-#   MENU SETTINGS    #
-#+                  +#
-######################
-
 menu-settings:
 
-  # name - appears as the title - REQUIRED
   name: '&1兌換選單'
 
-  # rows - the number of rows of the chest - REQUIRED
   rows: 3
-
-######################
-#+                  +#
-#       ITEMS        #
-#+                  +#
-######################
-
+  
 wood:
   COMMAND: 'open: change_wood.yml'
   NAME: '&6木材兌換'

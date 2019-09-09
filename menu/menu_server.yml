@@ -1,23 +1,8 @@
-######################
-#+                  +#
-#   MENU SETTINGS    #
-#+                  +#
-######################
-
 menu-settings:
-
-  # name - appears as the title - REQUIRED
   name: '&1伺服器選擇介面'
 
-  # rows - the number of rows of the chest - REQUIRED
   rows: 3
-
-######################
-#+                  +#
-#       ITEMS        #
-#+                  +#
-######################
-
+  
 server0:
   COMMAND: 'server: server0'
   NAME: '&6前往server0'

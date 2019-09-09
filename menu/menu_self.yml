@@ -1,5 +1,6 @@
 menu-settings:
   name: '&1個人指令介面'
+
   rows: 4
 
 spawn:

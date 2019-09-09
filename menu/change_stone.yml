@@ -1,43 +1,11 @@
-######################
-#+                  +#
-#   MENU SETTINGS    #
-#+                  +#
-######################
-
 menu-settings:
-
-  # name - appears as the title - REQUIRED
   name: '&1石料兌換'
 
-  # rows - the number of rows of the chest - REQUIRED
   rows: 2
 
-  # command - OPTIONAL (you can remove this or set it to '')
-  # Bind multiple commands using ; (command: 'menu; m; me')
   command: 'change_stone'
 
-  # auto-refresh - OPTIONAL
-  # How frequently the menu will be refreshed, in seconds.
-  # Useful if you have variables in items' descriptions.
   auto-refresh: 1
-
-  # This command command will be execute when the menu is opened.
-  # Supports all the icon command types.
-  open-action: ''
-
-  # open-with-item - OPTIONAL
-  # The menu will open only right-clicking with orange wool [35:1]
-  open-with-item:
-    id: compass
-    left-click: false
-    right-click: false
-
-
-######################
-#+                  +#
-#       ITEMS        #
-#+                  +#
-######################
 
 smooth_stone:
   COMMAND: 'give: smooth_stone,32'

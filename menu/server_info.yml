@@ -3,10 +3,7 @@ menu-settings:
   name: '&1伺服器內容'
 
   rows: 3
-
-
-
-
+  
 seed:
   COMMAND: 'tell: &aserver0: -9223191710740950770;tell: &aserver1: 4980665764931161818;tell: &aserver2: -6241630315598145857'
   NAME: '&a種子碼查詢'

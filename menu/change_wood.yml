@@ -1,44 +1,10 @@
-######################
-#+                  +#
-#   MENU SETTINGS    #
-#+                  +#
-######################
-
 menu-settings:
-
-  # name - appears as the title - REQUIRED
   name: '&1木材兌換'
 
-  # rows - the number of rows of the chest - REQUIRED
   rows: 6
 
-  # command - OPTIONAL (you can remove this or set it to '')
-  # Bind multiple commands using ; (command: 'menu; m; me')
-  command: ''
-
-  # auto-refresh - OPTIONAL
-  # How frequently the menu will be refreshed, in seconds.
-  # Useful if you have variables in items' descriptions.
   auto-refresh: 1
-
-  # This command command will be execute when the menu is opened.
-  # Supports all the icon command types.
-  open-action: ''
-
-  # open-with-item - OPTIONAL
-  # The menu will open only right-clicking with orange wool [35:1]
-  open-with-item:
-    id: compass
-    left-click: false
-    right-click: false
-
-
-######################
-#+                  +#
-#       ITEMS        #
-#+                  +#
-######################
-
+  
 oak1:
   COMMAND: 'give: oak log, 32'
   NAME: '&6橡木原木 兌換 橡木原木'

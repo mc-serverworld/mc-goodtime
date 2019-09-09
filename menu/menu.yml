@@ -1,12 +1,17 @@
 menu-settings:
   name: '&1ourPad v7.4'
+
   rows: 5
+
   command: 'pad'
+
   open-action: 'sound: BLOCK_NOTE_BLOCK_PLING;op: aach add 1 PlayerCommands.pad {player}'
+
   open-with-item:
     id: compass
     left-click: false
     right-click: true
+  
 spawn:
   COMMAND: 'open: menu_self.yml'
   NAME: '&6個人指令'
