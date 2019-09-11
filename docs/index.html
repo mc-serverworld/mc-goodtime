@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl51a4b091e19110f3878218cf05f4500c"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl077b2b166d809143990f8992e821e6bc"/>
   <meta charset="utf-8">
   <title>mc-goodtime</title>
   <link rel="icon" href="logo.jpg" type="image/x-icon">
@@ -60,18 +60,18 @@ body {
 }
 .gwd-div-1un7 {
     width: 100%;
-    height: 100%;
+    height: 5000px;
 }
 .gwd-page-z7vs {
     width: 100%;
-    height: 100%;
+    height: 5000px;
 }
 .gwd-image-1dxt {
     position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 23.53%;
+    height: 700px;
 }
 .gwd-input-14qo {
     position: absolute;
@@ -135,11 +135,22 @@ body {
     position: absolute;
     height: 562.66px;
     width: 37.69%;
-    left: 25%;
-    top: 77%;
+    left: 21%;
+    top: 82%;
 }
-@media (max-height: 2999px) {}
-@media (min-height: 3000px) {}</style>
+@media (max-height: 2999px) and (orientation: landscape) {}
+@media (min-height: 3000px) and (orientation: landscape) {}
+@media (max-height: 2999px) and (orientation: portrait) {}
+@media (min-height: 3000px) and (orientation: portrait) {
+    .gwd-image-1dxt {
+        height: 500px;
+    }
+    .gwd-button-1n9j {
+        top: 200px;
+        width: 500px;
+        height: 100px;
+    }
+}</style>
   <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
   <script data-source="gwd_webcomponents_min.js" data-version="6" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
   <script data-source="gwdpage_min.js" data-version="12" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
@@ -173,7 +184,7 @@ body {
 
 <body class="document-body">
   <gwd-pagedeck class="gwd-page-container" id="pagedeck" data-gwd-offset-top="0px" data-gwd-offset-left="0px">
-    <gwd-page id="page1" class="gwd-page-wrapper page1-content gwd-lightbox gwd-page-z7vs" data-gwd-width="100%" data-gwd-height="100%" centered="" data-gwd-name="mainpage" expanded="">
+    <gwd-page id="page1" class="gwd-page-wrapper page1-content gwd-lightbox gwd-page-z7vs" data-gwd-width="100%" data-gwd-height="5000px" centered="" data-gwd-name="mainpage" expanded="">
       <div class="gwd-page-content page1-content gwd-div-1un7">
         <gwd-image id="spawn1" source="assets/image/mod5.jpg" scaling="cover" class="gwd-image-1dxt" focalpoint="957.5 488" disablefocalpoint="" alignment="top left"></gwd-image>
         <input type="text" class="gwd-input-14qo" value="mc-goodtime.ddns.net" id="text_ip">
@@ -191,8 +202,9 @@ body {
       </div>
     </gwd-page>
   </gwd-pagedeck>
-  <script type="text/html" gwd-supported-sizes="">{ "supportedSizes": { "collapsed": { "sizeRanges": [{ "minWidth": 0, "minHeight": 1000, "maxWidth": 999999, "maxHeight": 2000 }] }, "expanded": { "sizeRanges": [{ "minWidth": 0, "minHeight": 0, "maxWidth": 999999, "maxHeight": 999999, "presetName":
-    "unbounded" }] } } }
+  <script type="text/html" gwd-supported-sizes="">{ "supportedSizes": { "collapsed": { "sizeRanges": [{ "minWidth": 0, "minHeight": 1000, "maxWidth": 999999, "maxHeight": 2000, "orientation": "landscape" }, { "minWidth": 0, "minHeight": 1000, "maxWidth": 999999, "maxHeight": 2000, "orientation": "portrait"
+    }] }, "expanded": { "sizeRanges": [{ "minWidth": 0, "minHeight": 0, "maxWidth": 999999, "maxHeight": 999999, "orientation": "landscape", "presetName": "unbounded" }, { "minWidth": 0, "minHeight": 0, "maxWidth": 999999, "maxHeight": 999999, "orientation":
+    "portrait", "presetName": "unbounded" }] } } }
   </script>
   <script type="text/javascript" id="gwd-init-code">
     (function() {
