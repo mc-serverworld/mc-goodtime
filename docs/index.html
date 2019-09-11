@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJle1626333dd90b644c95425d26b6c6a15"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl2d4688e03e35ca54cdc00f189e7d79c4"/>
   <meta charset="utf-8">
   <title>mc-goodtime</title>
   <link rel="icon" href="logo.jpg" type="image/x-icon">
@@ -9,6 +9,7 @@
   <link href="gwdpage_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-page">
   <link href="gwdpagedeck_style.css" rel="stylesheet" data-version="12" data-exports-type="gwd-pagedeck">
   <link href="gwdimage_style.css" rel="stylesheet" data-version="13" data-exports-type="gwd-image">
+  <link href="gwdiframe_style.css" rel="stylesheet" data-version="5" data-exports-type="gwd-iframe">
   <style type="text/css" id="gwd-lightbox-style">.gwd-lightbox {
     overflow: hidden;
 }</style>
@@ -57,22 +58,21 @@ body {
 }
 .page1-content {
     width: 550px;
-    height: 400px;
 }
 .gwd-div-1un7 {
-    height: 3000px;
     width: 100%;
+    height: 5000px;
 }
 .gwd-page-z7vs {
-    height: 3000px;
     width: 100%;
+    height: 5000px;
 }
 .gwd-image-1dxt {
     position: absolute;
-    width: 100%;
     top: 0%;
     left: 0%;
-    height: 15%;
+    width: 100%;
+    height: 600px;
 }
 .gwd-input-14qo {
     position: absolute;
@@ -96,11 +96,11 @@ body {
     border-image-width: 1;
     border-image-outset: 0;
     border-image-repeat: stretch;
-    top: 10%;
     font-size: 20px;
-    left: 42%;
-    width: 310px;
-    height: 35px;
+    height: 4%;
+    width: 32.52%;
+    left: 28%;
+    top: 12%;
 }
 .gwd-page-i7ra {
     width: 100%;
@@ -134,10 +134,18 @@ body {
 }
 .gwd-image-yq1s {
     position: absolute;
-    width: 707px;
-    height: 375px;
-    left: 37%;
-    top: 85%;
+    height: 562.66px;
+    width: 37.69%;
+    left: 16%;
+    top: 88%;
+}
+.gwd-iframe-1q0c {
+    position: absolute;
+    border: none;
+    left: 44.99%;
+    top: 34.67%;
+    height: 20%;
+    width: 30%;
 }</style>
   <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
   <script data-source="gwd_webcomponents_min.js" data-version="6" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
@@ -153,6 +161,7 @@ body {
       window.getSelection().removeAllRanges();
       alert("IP copied!");
     };
+    gwd.changepage = function(event) {};
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Google Web Designer 中處理事件的支援程式碼
@@ -167,16 +176,18 @@ body {
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
   </script>
   <script type="text/javascript" id="js-Text外掛程式" src="https://s0.2mdn.net/ads/studio/cached_libs/textplugin_2.1.2_min.js"></script>
+  <script data-source="gwdiframe_min.js" data-version="5" data-exports-type="gwd-iframe" src="gwdiframe_min.js"></script>
 </head>
 
 <body class="document-body">
   <gwd-pagedeck class="gwd-page-container" id="pagedeck" data-gwd-offset-top="0px" data-gwd-offset-left="0px">
-    <gwd-page id="page1" class="gwd-page-wrapper page1-content gwd-lightbox gwd-page-z7vs" data-gwd-width="100%" data-gwd-height="3000px" centered="" data-gwd-name="mainpage">
+    <gwd-page id="page1" class="gwd-page-wrapper page1-content gwd-lightbox gwd-page-z7vs" data-gwd-width="100%" data-gwd-height="5000px" centered="" data-gwd-name="mainpage">
       <div class="gwd-page-content page1-content gwd-div-1un7">
-        <gwd-image id="spawn1" source="assets/image/mod5.jpg" scaling="cover" class="gwd-image-1dxt"></gwd-image>
+        <gwd-image id="spawn1" source="assets/image/mod5.jpg" scaling="cover" class="gwd-image-1dxt" focalpoint="957.5 488" disablefocalpoint="" alignment="top left"></gwd-image>
         <input type="text" class="gwd-input-14qo" value="mc-goodtime.ddns.net" id="text_ip">
-        <button id="button_1" class="gwd-button-1n9j gwd-gen-1u6zgwdanimation">mc-goodtime.ddns.net</button>
+        <button id="button_1" class="gwd-button-1n9j gwd-gen-1u6zgwdanimation">Copy ip</button>
         <gwd-image id="temp1" source="assets/image/temp1.png" scaling="cover" class="gwd-image-yq1s"></gwd-image>
+        <gwd-iframe id="gwd-iframe_1" source="http://mc-goodtime.ddns.net:8120" class="gwd-iframe-1q0c"></gwd-iframe>
       </div>
     </gwd-page>
     <gwd-page id="page1_2" class="gwd-page-wrapper gwd-lightbox gwd-page-1mgr" data-gwd-width="100%" data-gwd-height="100%">
@@ -189,6 +200,9 @@ body {
       </div>
     </gwd-page>
   </gwd-pagedeck>
+  <script type="text/html" gwd-supported-sizes="">{ "supportedSizes": { "collapsed": { "sizeRanges": [{ "minWidth": 0, "minHeight": 0, "maxWidth": 999999, "maxHeight": 999999, "presetName": "unbounded" }] }, "expanded": { "sizeRanges": [{ "minWidth": 0, "minHeight": 0, "maxWidth": 999999, "maxHeight":
+    999999, "presetName": "unbounded" }] } } }
+  </script>
   <script type="text/javascript" id="gwd-init-code">
     (function() {
       document.body.style.opacity = "0";
