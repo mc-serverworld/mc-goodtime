@@ -37,21 +37,22 @@ server3:
   COMMAND: 'server: server3'
   NAME: '&6前往server3'
   LORE:
+    - '&2線上人數: &6%bungee_server3%'
     - 'P:永生之年系列'
   ID: skeleton_skull
   POSITION-X: 5
   POSITION-Y: 2
 
-createrserver:
-  COMMAND: 'server: createrserver'
-  NAME: '&6前往彼岸...'
+server5:
+  COMMAND: 'server: server5'
+  NAME: '&6前往server5'
   LORE:
-    - '&2線上人數: &6%bungee_createrserver%'
-    - '前往彼岸...'
+    - '&2線上人數: &6%bungee_server5%'
+    - '&c此伺服器為專供玩家建造而開啟的'
+    - '&c因此禁止建造工廠 生怪塔等生產性設施'
+    - '&c紅石也請盡量避免'
   ID: player_head
-  SKULL-OWNER: 'julagamer2007'
-  PERMISSION: 'free'
-  PERMISSION-MESSAGE: '&c無法前往...'
+  SKULL-OWNER: 'BlockminersTV'
   POSITION-X: 6
   POSITION-Y: 2
 
