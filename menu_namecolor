@@ -1,0 +1,40 @@
+menu-settings:
+  name: '&1更變名稱顏色'
+
+  rows: 4
+
+Black:
+  COMMAND: 'Lp user {player} meta setprefix &0[Donater]'
+  NAME: '&b切換為黑色'
+  LORE:
+    - '&0[Donater] notch'
+  ID: black_dye
+  POSITION-X: 2
+  POSITION-Y: 2
+
+Darkblue:
+  COMMAND: 'Lp user {player} meta setprefix &1[Donater]'
+  NAME: '&b切換為藍色'
+  LORE:
+    - '&1[Donater] notch'
+  ID: blue_dye
+  POSITION-X: 3
+  POSITION-Y: 2
+
+Darkgreen:
+  COMMAND: 'Lp user {player} meta setprefix &2[Donater]'
+  NAME: '&b設定家'
+  LORE:
+    - '將腳底設定為家'
+  ID: green_dye
+  POSITION-X: 4
+  POSITION-Y: 2
+
+close:
+  COMMAND: 'open: menu.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1
