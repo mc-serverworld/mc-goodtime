@@ -23,10 +23,19 @@ Darkblue:
 
 Darkgreen:
   COMMAND: 'Lp user {player} meta setprefix &2[Donater]'
-  NAME: '&b設定家'
+  NAME: '&b切換為綠色'
   LORE:
-    - '將腳底設定為家'
+    - '&2[Donater] notch'
   ID: green_dye
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+Darkgreen:
+  COMMAND: 'Lp user {player} meta setprefix &2[Donater]'
+  NAME: '&b切換為湖藍色'
+  LORE:
+    - '&2[Donater] notch'
+  ID: blue_dye
   POSITION-X: 4
   POSITION-Y: 2
 
