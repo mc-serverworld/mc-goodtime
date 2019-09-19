@@ -81,8 +81,62 @@ Darkgray:
   LORE:
     - '&8[Donater] notch'
   ID: gray_dye
-  POSITION-X: 2
+  POSITION-X: 3
   POSITION-Y: 3
+
+Blue:
+  COMMAND: 'Lp user {player} meta setprefix &9[Donater]'
+  NAME: '&b切換為藍色'
+  LORE:
+    - '&9[Donater] notch'
+  ID: blue_dye
+  POSITION-X: 4
+  POSITION-Y: 3
+
+Green:
+  COMMAND: 'Lp user {player} meta setprefix &a[Donater]'
+  NAME: '&b切換為綠色'
+  LORE:
+    - '&a[Donater] notch'
+  ID: lime_dye
+  POSITION-X: 5
+  POSITION-Y: 3
+
+Aqua:
+  COMMAND: 'Lp user {player} meta setprefix &b[Donater]'
+  NAME: '&b切換為天藍色'
+  LORE:
+    - '&b[Donater] notch'
+  ID: light_blue_dye
+  POSITION-X: 6
+  POSITION-Y: 3
+
+Lightpurple:
+  COMMAND: 'Lp user {player} meta setprefix &d[Donater]'
+  NAME: '&d切換為粉紫色'
+  LORE:
+    - '&7[Donater] notch'
+  ID: magenta_dye
+  POSITION-X: 7
+  POSITION-Y: 3
+
+Yellow:
+  COMMAND: 'Lp user {player} meta setprefix &e[Donater]'
+  NAME: '&d切換為黃色'
+  LORE:
+    - '&e[Donater] notch'
+  ID: yellow_dye
+  POSITION-X: 8
+  POSITION-Y: 3
+
+White:
+  COMMAND: 'Lp user {player} meta setprefix &f[Donater]'
+  NAME: '&f切換為白色'
+  LORE:
+    - '&f[Donater] notch'
+  ID: white_dye
+  POSITION-X: 2
+  POSITION-Y: 4
 
 close:
   COMMAND: 'open: menu.yml'
