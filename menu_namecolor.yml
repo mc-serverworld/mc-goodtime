@@ -14,7 +14,7 @@ Black:
 
 Darkblue:
   COMMAND: 'Lp user {player} meta setprefix &1[Donater]'
-  NAME: '&b切換為藍色'
+  NAME: '&b切換為深藍色'
   LORE:
     - '&1[Donater] notch'
   ID: blue_dye
@@ -30,13 +30,31 @@ Darkgreen:
   POSITION-X: 4
   POSITION-Y: 2
   
-Darkgreen:
-  COMMAND: 'Lp user {player} meta setprefix &2[Donater]'
+Lakeblue:
+  COMMAND: 'Lp user {player} meta setprefix &3[Donater]'
   NAME: '&b切換為湖藍色'
   LORE:
-    - '&2[Donater] notch'
+    - '&3[Donater] notch'
   ID: blue_dye
-  POSITION-X: 4
+  POSITION-X: 5
+  POSITION-Y: 2
+
+Darkred:
+  COMMAND: 'Lp user {player} meta setprefix &4[Donater]'
+  NAME: '&b切換為深紅色'
+  LORE:
+    - '&4[Donater] notch'
+  ID: blue_dye
+  POSITION-X: 6
+  POSITION-Y: 2
+
+Darkpurple:
+  COMMAND: 'Lp user {player} meta setprefix &5[Donater]'
+  NAME: '&b切換為紫色'
+  LORE:
+    - '&5[Donater] notch'
+  ID: purple_dye
+  POSITION-X: 7
   POSITION-Y: 2
 
 close:
