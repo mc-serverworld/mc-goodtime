@@ -66,14 +66,23 @@ Gold:
   POSITION-X: 8
   POSITION-Y: 2
 
-Darkpurple:
-  COMMAND: 'Lp user {player} meta setprefix &5[Donater]'
-  NAME: '&b切換為紫色'
+Lightgray:
+  COMMAND: 'Lp user {player} meta setprefix &7[Donater]'
+  NAME: '&b切換為淺灰色'
   LORE:
-    - '&5[Donater] notch'
-  ID: purple_dye
-  POSITION-X: 9
-  POSITION-Y: 2
+    - '&7[Donater] notch'
+  ID: light_gray_dye
+  POSITION-X: 2
+  POSITION-Y: 3
+
+Darkgray:
+  COMMAND: 'Lp user {player} meta setprefix &8[Donater]'
+  NAME: '&b切換為灰色'
+  LORE:
+    - '&8[Donater] notch'
+  ID: gray_dye
+  POSITION-X: 2
+  POSITION-Y: 3
 
 close:
   COMMAND: 'open: menu.yml'
