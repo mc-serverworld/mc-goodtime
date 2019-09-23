@@ -1,0 +1,227 @@
+menu-settings:
+  name: '&1生物召喚'
+  
+  rows: 5
+  
+trader_llama:
+  COMMAND: 'op: summon trader_llama'
+  NAME: '&6召喚 商駝'
+  LORE:
+    - 'P:其實沒啥用'
+    - '花費 15 級經驗'
+  ID: 'trader_llama_spawn_egg'
+  POSITION-X: 2
+  POSITION-Y: 2 
+  LEVELS: 15
+
+llama:
+  COMMAND: 'op: summon llama'
+  NAME: '&6召喚 駱馬'
+  LORE:
+    - 'P:其實沒啥用'
+    - '花費 15 級經驗'
+  ID: 'llama_spawn_egg'
+  POSITION-X: 3
+  POSITION-Y: 2
+  LEVELS: 15
+
+cat:
+  COMMAND: 'op: summon cat'
+  NAME: '&6召喚 貓'
+  LORE:
+    - 'V:%%%%%%%%%%'
+    - '花費 20 級經驗'
+  ID: 'cat_spawn_egg'
+  POSITION-X: 4
+  POSITION-Y: 2
+  LEVELS: 20
+
+chicken:
+  COMMAND: 'op: summon chicken'
+  NAME: '&6召喚 雞'
+  LORE:
+    - '花費 5 級經驗'
+  ID: 'chicken_spawn_egg'
+  POSITION-X: 5
+  POSITION-Y: 2
+  LEVELS: 5
+
+cow:
+  COMMAND: 'op: summon cow'
+  NAME: '&6召喚 牛'
+  LORE:
+    - '花費 10 級經驗'
+  ID: 'cow_spawn_egg'
+  POSITION-X: 6
+  POSITION-Y: 2
+  LEVELS: 10
+
+dolphin:
+  COMMAND: 'op: summon dolphin'
+  NAME: '&6召喚 海豚'
+  LORE:
+    - 'P:請準備好水'
+    - '花費 20 級經驗'
+  ID: 'dolphin_spawn_egg'
+  POSITION-X: 7
+  POSITION-Y: 2
+  LEVELS: 20
+
+donkey:
+  COMMAND: 'op: summon donkey'
+  NAME: '&6召喚 驢子'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'donkey_spawn_egg'
+  POSITION-X: 8
+  POSITION-Y: 2
+  LEVELS: 15
+
+horse:
+  COMMAND: 'op: summon horse'
+  NAME: '&6召喚 馬'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'horse_spawn_egg'
+  POSITION-X: 2
+  POSITION-Y: 3
+  LEVELS: 15
+
+fox:
+  COMMAND: 'op: summon fox'
+  NAME: '&6召喚 狐狸'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'fox_spawn_egg'
+  POSITION-X: 3
+  POSITION-Y: 3
+  LEVELS: 15
+
+mooshroom:
+  COMMAND: 'op: summon mooshroom'
+  NAME: '&6召喚 蘑菇牛'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'mooshroom_spawn_egg'
+  POSITION-X: 4
+  POSITION-Y: 3
+  LEVELS: 15
+
+mule:
+  COMMAND: 'op: summon mule'
+  NAME: '&6召喚 騾子'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'mule_spawn_egg'
+  POSITION-X: 5
+  POSITION-Y: 3
+  LEVELS: 15
+
+ocelot:
+  COMMAND: 'op: summon ocelot'
+  NAME: '&6召喚 山貓'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'ocelot_spawn_egg'
+  POSITION-X: 6
+  POSITION-Y: 3
+  LEVELS: 15
+
+panda:
+  COMMAND: 'op: summon panda'
+  NAME: '&6召喚 貓熊'
+  LORE:
+    - '花費 20 級經驗'
+  ID: 'panda_spawn_egg'
+  POSITION-X: 7
+  POSITION-Y: 3
+  LEVELS: 20
+
+parrot:
+  COMMAND: 'op: summon parrot'
+  NAME: '&6召喚 鸚鵡'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'parrot_spawn_egg'
+  POSITION-X: 8
+  POSITION-Y: 3
+  LEVELS: 15
+
+pig:
+  COMMAND: 'op: summon pig'
+  NAME: '&6召喚 豬'
+  LORE:
+    - '花費 10 級經驗'
+  ID: 'pig_spawn_egg'
+  POSITION-X: 2
+  POSITION-Y: 4
+  LEVELS: 10
+
+polar_bear:
+  COMMAND: 'op: summon polar_bear'
+  NAME: '&6召喚 北極熊'
+  LORE:
+    - '花費 20 級經驗'
+  ID: 'polar_bear_spawn_egg'
+  POSITION-X: 3
+  POSITION-Y: 4
+  LEVELS: 20
+
+rabbit:
+  COMMAND: 'op: summon rabbit'
+  NAME: '&6召喚 兔子'
+  LORE:
+    - '花費 10 級經驗'
+  ID: 'rabbit_spawn_egg'
+  POSITION-X: 4
+  POSITION-Y: 4
+  LEVELS: 10
+
+sheep:
+  COMMAND: 'op: summon sheep'
+  NAME: '&6召喚 兔子'
+  LORE:
+    - '花費 10 級經驗'
+  ID: 'sheep_spawn_egg'
+  POSITION-X: 5
+  POSITION-Y: 4
+  LEVELS: 10
+
+turtle:
+  COMMAND: 'op: summon turtle'
+  NAME: '&6召喚 海龜'
+  LORE:
+    - '花費 20 級經驗'
+  ID: 'turtle_spawn_egg'
+  POSITION-X: 6
+  POSITION-Y: 4
+  LEVELS: 20
+
+villager:
+  COMMAND: 'op: summon villager'
+  NAME: '&6召喚 村民'
+  LORE:
+    - '花費 20 級經驗'
+  ID: 'villager_spawn_egg'
+  POSITION-X: 7
+  POSITION-Y: 4
+  LEVELS: 20
+
+wolf:
+  COMMAND: 'op: summon wolf'
+  NAME: '&6召喚 狼'
+  LORE:
+    - '花費 15 級經驗'
+  ID: 'wolf_spawn_egg'
+  POSITION-X: 8
+  POSITION-Y: 4
+  LEVELS: 15
+
+close:
+  COMMAND: 'open: menu_change.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1

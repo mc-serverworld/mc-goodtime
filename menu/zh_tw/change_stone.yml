@@ -1,0 +1,105 @@
+menu-settings:
+  name: '&1石料兌換'
+
+  rows: 2
+
+  command: 'change_stone'
+
+  auto-refresh: 1
+
+smooth_stone:
+  COMMAND: 'give: smooth_stone,32'
+  NAME: '&6石頭 兌換 平滑石頭'
+  LORE:
+    - 'P:連燒都不用'
+  ID: 'smooth_stone, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'stone, 32'
+
+bricks:
+  COMMAND: 'give: bricks,32'
+  NAME: '&6黏土塊 兌換 紅磚'
+  LORE:
+    - 'P:這東西太麻煩了 簡化一下吧'
+  ID: 'bricks, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'clay, 32'
+
+granite:
+  COMMAND: 'give: granite,32'
+  NAME: '&6石頭 兌換 花崗岩'
+  LORE:
+    - 'P:如果真實世界也通用此道理的話...'
+  ID: 'granite, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'stone, 32'
+
+granite2:
+  COMMAND: 'give: polished_granite, 32'
+  NAME: '&6石頭 兌換 平滑花崗岩'
+  LORE:
+    - 'P:又少一次合成!'
+  ID: 'polished_granite, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'stone, 32'
+  
+diorite:
+  COMMAND: 'give: diorite, 32'
+  NAME: '&6石頭 兌換 閃長岩'
+  LORE:
+    - 'P:如果真實世界也通用此道理的話...'
+  ID: 'diorite, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'stone, 32'
+
+diorite2:
+  COMMAND: 'give: polished_diorite, 32'
+  NAME: '&6石頭 兌換 平滑閃長岩'
+  LORE:
+    - 'P:又少一次合成!'
+  ID: 'polished_diorite, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'stone, 32'
+
+andesite:
+  COMMAND: 'give: andesite, 32'
+  NAME: '&6石頭 兌換 安山岩'
+  LORE:
+    - 'P:如果真實世界也通用此道理的話...'
+  ID: 'andesite, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'stone, 32'
+
+andesite2:
+  COMMAND: 'give: polished_andesite, 32'
+  NAME: '&6石頭 兌換 平滑安山岩'
+  LORE:
+    - 'P:又少一次合成!'
+  ID: 'polished_andesite, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'stone, 32'
+
+close:
+  COMMAND: 'open: menu_change.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1

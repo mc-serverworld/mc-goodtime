@@ -1,0 +1,285 @@
+menu-settings:
+  name: '&1雜項兌換'
+
+  rows: 4
+
+  auto-refresh: 1
+  
+packedice:
+  COMMAND: 'give: packed_ice, 16'
+  NAME: '&632冰 兌換 16冰磚'
+  LORE:
+    - 'P:冰磚有個好處，不會融化'
+  ID: 'packed_ice, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'ice, 32'
+
+blueice:
+  COMMAND: 'give: blue_ice, 16'
+  NAME: '&632冰磚 兌換 16藍冰'
+  LORE:
+    - 'V:這真的划算嗎?'
+    - 'P:誰知道'
+  ID: 'blue_ice, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'packed_ice, 32'
+
+sponge:
+  COMMAND: 'give: sponge, 16'
+  NAME: '&632海燈籠 兌換 16海綿'
+  LORE:
+    - 'V:為什麼適用這個換阿?'
+    - 'P:我想不到其他東西了'
+  ID: 'sponge, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'sealantern, 32'
+
+snowblock:
+  COMMAND: 'give: snow_block, 16'
+  NAME: '&664雪球 兌換 16雪塊'
+  LORE:
+    - 'P:壓縮成形!'
+  ID: 'snow_block, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'snowball, 64'
+
+playerhead:
+  COMMAND: 'op: playerhead {player}'
+  NAME: '&6取得自己的頭顱'
+  LORE:
+    - 'P:又是一個跳票許久的東西'
+    - '花費: 1500$'
+  ID: player_head
+  SKULL-OWNER: '{player}'
+  PRICE: 1500
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+
+emerald:
+  COMMAND: 'give: emerald,1,name: &2村民商人召喚器,lore: 詳細教學請至官網查看'
+  NAME: '&6兌換 村民商人召喚器'
+  LORE:
+    - 'P:村民最愛綠寶石了'
+    - '花費: 5000$'
+  ID: emerald
+  PRICE: 5000
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+
+nametag:
+  COMMAND: 'give: name_tag'
+  NAME: '&6兌換 命名牌'
+  LORE:
+    - 'P:又是一個跳票許久的東西'
+    - '花費: 500$'
+  ID: name_tag
+  PRICE: 500
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+Concrete1:
+  COMMAND: 'give: white_concrete, 32'
+  NAME: '&632白色混凝土粉末 兌換 32白色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' white_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'white_concrete_powder, 32'
+
+Concrete2:
+  COMMAND: 'give: orange_concrete, 32'
+  NAME: '&632橘色混凝土粉末 兌換 32橘色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' orange_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'orange_concrete_powder, 32'
+
+Concrete3:
+  COMMAND: 'give: magenta_concrete, 32'
+  NAME: '&632洋紅色混凝土粉末 兌換 32洋紅色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' magenta_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'magenta_concrete_powder, 32'
+
+Concrete4:
+  COMMAND: 'give: light_blue_concrete, 32'
+  NAME: '&632淺藍色混凝土粉末 兌換 32淺藍色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' light_blue_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'light_blue_concrete_powder, 32'
+
+Concrete5:
+  COMMAND: 'give: yellow_concrete, 32'
+  NAME: '&632黃色混凝土粉末 兌換 32黃色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' yellow_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'yellow_concrete_powder, 32'
+
+Concrete6:
+  COMMAND: 'give: lime_concrete, 32'
+  NAME: '&632淺綠色混凝土粉末 兌換 32淺綠色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' lime_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'lime_concrete_powder, 32'
+
+Concrete7:
+  COMMAND: 'give: pink_concrete, 32'
+  NAME: '&632粉紅色混凝土粉末 兌換 32粉紅色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' pink_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'pink_concrete_powder, 32'
+
+Concrete8:
+  COMMAND: 'give: gray_concrete, 32'
+  NAME: '&632灰色混凝土粉末 兌換 32灰色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: 'gray_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'gray_concrete_powder, 32'
+
+Concrete9:
+  COMMAND: 'give: light_gray_concrete, 32'
+  NAME: '&632淺灰色混凝土粉末 兌換 32淺灰色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' light_gray_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'light_gray_concrete_powder, 32'
+
+Concrete10:
+  COMMAND: 'give: cyan_concrete, 32'
+  NAME: '&632青色混凝土粉末 兌換 32青色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' cyan_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'cyan_concrete_powder, 32'
+
+Concrete11:
+  COMMAND: 'give: purple_concrete, 32'
+  NAME: '&632紫色混凝土粉末 兌換 32紫色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' purple_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'purple_concrete_powder, 32'
+
+Concrete12:
+  COMMAND: 'give: blue_concrete, 32'
+  NAME: '&632藍色混凝土粉末 兌換 32藍色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' blue_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'blue_concrete_powder, 32'
+
+Concrete13:
+  COMMAND: 'give: brown_concrete, 32'
+  NAME: '&632棕色混凝土粉末 兌換 32棕色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: 'brown_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'brown_concrete_powder, 32'
+
+Concrete14:
+  COMMAND: 'give: green_concrete, 32'
+  NAME: '&632綠色混凝土粉末 兌換 32綠色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' green_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'green_concrete_powder, 32'
+
+Concrete15:
+  COMMAND: 'give: red_concrete, 32'
+  NAME: '&632紅色混凝土粉末 兌換 32紅色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' red_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'red_concrete_powder, 32'
+
+Concrete16:
+  COMMAND: 'give: black_concrete, 32'
+  NAME: '&632黑色混凝土粉末 兌換 32黑色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' black_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'black_concrete_powder, 32'
+
+Concrete12:
+  COMMAND: 'give: blue_concrete, 32'
+  NAME: '&632藍色混凝土粉末 兌換 32藍色混凝土'
+  LORE:
+    - 'P:到底是哪個人想出要接觸到水才能生成混凝土阿'
+  ID: ' blue_concrete, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'blue_concrete_powder, 32'
+
+close:
+  COMMAND: 'open: menu_change.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1

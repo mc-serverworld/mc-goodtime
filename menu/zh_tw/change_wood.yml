@@ -1,0 +1,413 @@
+menu-settings:
+  name: '&1木材兌換'
+
+  rows: 6
+
+  auto-refresh: 1
+  
+oak1:
+  COMMAND: 'give: oak log, 32'
+  NAME: '&6橡木原木 兌換 橡木原木'
+  LORE:
+    - 'V:這個到底意義在哪...'
+  ID: 'oak log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'oak log, 32'
+
+oak2:
+  COMMAND: 'give: oak log, 32'
+  NAME: '&6杉木原木 兌換 橡木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'spruce_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'spruce_log, 32'
+
+oak3:
+  COMMAND: 'give: oak log, 32'
+  NAME: '&6樺木原木 兌換 橡木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'birch_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'birch_log, 32'
+
+oak4:
+  COMMAND: 'give: oak log, 32'
+  NAME: '&6叢林木原木 兌換 橡木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'jungle_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'jungle_log, 32'
+
+oak5:
+  COMMAND: 'give: oak log, 32'
+  NAME: '&6相思木原木 兌換 橡木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'acacia_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'acacia_log, 32'
+
+oak6:
+  COMMAND: 'give: oak log, 32'
+  NAME: '&6黑橡木原木 兌換 橡木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'dark_oak_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+  REQUIRED-ITEM: 'dark_oak_log, 32'
+
+
+oak7:
+  COMMAND: 'give: oak log, 32'
+  NAME: '&6橡木原木 兌換 橡木原木'
+  LORE:
+    - 'V:這個到底意義在哪...'
+  ID: 'oak log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'oak log, 32'
+
+oak8:
+  COMMAND: 'give: spruce_log, 32'
+  NAME: '&6橡木原木 兌換 杉木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'spruce_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'oak log, 32'
+
+oak9:
+  COMMAND: 'give: birch_log, 32'
+  NAME: '&6橡木原木 兌換 樺木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'birch_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'oak log, 32'
+
+oak10:
+  COMMAND: 'give: jungle_log, 32'
+  NAME: '&6橡木原木 兌換 叢林木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'jungle_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'oak log, 32'
+
+oak11:
+  COMMAND: 'give: acacia_log, 32'
+  NAME: '&6橡木原木 兌換 相思木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'acacia_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'oak log, 32'
+
+oak12:
+  COMMAND: 'give: dark_oak_log, 32'
+  NAME: '&6橡木原木 兌換 黑橡木原木'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'dark_oak_log, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+  REQUIRED-ITEM: 'oak log, 32'
+
+sapling1:
+  COMMAND: 'give: oak_sapling, 16'
+  NAME: '&6橡木樹苗 兌換 橡木樹苗'
+  LORE:
+    - 'V:這個到底意義在哪...'
+  ID: 'oak_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'oak_sapling, 16'
+
+sapling2:
+  COMMAND: 'give: oak_sapling, 16'
+  NAME: '&6杉木樹苗 兌換 橡木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'spruce_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'spruce_sapling, 16'
+
+sapling3:
+  COMMAND: 'give: oak_sapling, 16'
+  NAME: '&6樺木樹苗 兌換 橡木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'birch_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'birch_sapling, 16'
+
+sapling4:
+  COMMAND: 'give: oak_sapling, 16'
+  NAME: '&6叢林木樹苗 兌換 橡木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'jungle_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'jungle_sapling, 16'
+
+sapling5:
+  COMMAND: 'give: oak_sapling, 16'
+  NAME: '&6相思木樹苗 兌換 橡木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'acacia_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'acacia_sapling, 16'
+
+sapling6:
+  COMMAND: 'give: oak_sapling, 16'
+  NAME: '&6黑橡木樹苗 兌換 橡木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'dark_oak_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+  REQUIRED-ITEM: 'dark_oak_sapling, 16'
+
+sapling7:
+  COMMAND: 'give: oak_sapling, 16'
+  NAME: '&6橡木樹苗 兌換 橡木樹苗'
+  LORE:
+    - 'V:這個到底意義在哪...'
+  ID: 'oak_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'oak_sapling, 16'
+
+sapling8:
+  COMMAND: 'give: spruce_sapling, 16'
+  NAME: '&6橡木樹苗 兌換 杉木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'spruce_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'oak_sapling, 16'
+
+sapling9:
+  COMMAND: 'give: birch_sapling, 16'
+  NAME: '&6橡木樹苗 兌換 樺木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'birch_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'oak_sapling, 16'
+
+sapling10:
+  COMMAND: 'give: jungle_sapling, 16'
+  NAME: '&6橡木樹苗 兌換 叢林木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'jungle_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'oak_sapling, 16'
+
+sapling11:
+  COMMAND: 'give: acacia_sapling, 16'
+  NAME: '&6橡木樹苗 兌換 相思木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'acacia_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'oak_sapling, 16'
+
+sapling12:
+  COMMAND: 'give: dark_oak_sapling, 16'
+  NAME: '&6橡木樹苗 兌換 黑橡木樹苗'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'dark_oak_sapling, 16'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+  REQUIRED-ITEM: 'oak_sapling, 16'
+
+leaves1:
+  COMMAND: 'give: oak_leaves, 32'
+  NAME: '&6橡木樹葉 兌換 橡木樹葉'
+  LORE:
+    - 'V:這個到底意義在哪...'
+  ID: 'oak_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+  REQUIRED-ITEM: 'oak_leaves, 32'
+
+leaves2:
+  COMMAND: 'give: oak_leaves, 32'
+  NAME: '&6杉木樹葉 兌換 橡木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'spruce_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5
+  REQUIRED-ITEM: 'spruce_leaves, 32'
+
+leaves3:
+  COMMAND: 'give: oak_leaves, 32'
+  NAME: '&6樺木樹葉 兌換 橡木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'birch_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 5
+  REQUIRED-ITEM: 'birch_leaves, 32'
+
+leaves4:
+  COMMAND: 'give: oak_leaves, 32'
+  NAME: '&6叢林木樹葉 兌換 橡木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'jungle_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 5
+  REQUIRED-ITEM: 'jungle_leaves, 32'
+
+leaves5:
+  COMMAND: 'give: oak_leaves, 32'
+  NAME: '&6相思木樹葉 兌換 橡木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'acacia_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+  REQUIRED-ITEM: 'acacia_leaves, 32'
+
+leaves6:
+  COMMAND: 'give: oak_leaves, 32'
+  NAME: '&6黑橡木樹葉 兌換 橡木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'dark_oak_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 5
+  REQUIRED-ITEM: 'dark_oak_leaves, 32'
+
+
+leaves7:
+  COMMAND: 'give: oak_leaves, 32'
+  NAME: '&6橡木樹葉 兌換 橡木樹葉'
+  LORE:
+    - 'V:這個到底意義在哪...'
+  ID: 'oak_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+  REQUIRED-ITEM: 'oak_leaves, 32'
+
+leaves8:
+  COMMAND: 'give: spruce_leaves, 32'
+  NAME: '&6橡木樹葉 兌換 杉木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'spruce_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 6
+  REQUIRED-ITEM: 'oak_leaves, 32'
+
+leaves9:
+  COMMAND: 'give: birch_leaves, 32'
+  NAME: '&6橡木樹葉 兌換 樺木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'birch_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 6
+  REQUIRED-ITEM: 'oak_leaves, 32'
+
+leaves10:
+  COMMAND: 'give: jungle_leaves, 32'
+  NAME: '&6橡木樹葉 兌換 叢林木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'jungle_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 6
+  REQUIRED-ITEM: 'oak_leaves, 32'
+
+leaves11:
+  COMMAND: 'give: acacia_leaves, 32'
+  NAME: '&6橡木樹葉 兌換 相思木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'acacia_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 6
+  REQUIRED-ITEM: 'oak_leaves, 32'
+
+leaves12:
+  COMMAND: 'give: dark_oak_leaves, 32'
+  NAME: '&6橡木樹葉 兌換 黑橡木樹葉'
+  LORE:
+    - 'P:等價交換聽過嗎?'
+  ID: 'dark_oak_leaves, 32'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+  REQUIRED-ITEM: 'oak_leaves, 32'
+
+close:
+  COMMAND: 'open: menu_change.yml'
+  NAME: '&6返回'
+  ID: redstone lamp
+  LORE:
+    - '回上一頁'
+  POSITION-X: 9
+  POSITION-Y: 1

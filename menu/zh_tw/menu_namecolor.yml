@@ -139,7 +139,7 @@ White:
   POSITION-Y: 4
 
 close:
-  COMMAND: 'open: menu.yml'
+  COMMAND: 'open: menu_self.yml'
   NAME: '&6返回'
   ID: redstone lamp
   LORE:
